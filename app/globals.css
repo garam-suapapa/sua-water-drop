@@ -19,3 +19,4 @@
 @keyframes milestone-transform{0%{filter:brightness(1);transform:scale(.94)}40%{filter:brightness(1.8) drop-shadow(0 0 38px #fff);transform:scale(1.1) rotate(-2deg)}100%{filter:brightness(1);transform:scale(1)}}
 @keyframes particle-pop{0%{opacity:0;transform:translate(-50%,-50%) scale(.2)}25%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--x)),calc(-50% + var(--y))) scale(1.25) rotate(25deg)}}
 @media(prefers-reduced-motion:reduce){.effect-250 .orb,.effect-500 .orb,.effect-750 .orb,.effect-1000 .orb,.milestone-burst span,.orb img{animation:none}}
+.tracker-links{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:12px}.tracker-links .custom-link{width:auto;margin:0}.reset-link{border:0;background:none;color:#a27575;text-decoration:underline;cursor:pointer;font-size:12px}
