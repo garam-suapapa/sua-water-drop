@@ -4,3 +4,4 @@
 @media(max-width:420px){.topbar nav{gap:0}.topbar nav a{padding:7px 5px}.slide h1{font-size:34px}.orb{width:250px;height:290px}.quick{gap:6px}.section-title{gap:12px}.section-title button{width:38px;height:38px}.day{min-height:54px}.day small{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orb,.orb img,.milestone-burst span,.water i{animation:none!important}}
 .book span.collected{background:#fff0f5;border-color:#f5b8ca}
+.day{border:0;text-align:left;color:inherit}.day:disabled{opacity:1}.day.editable{cursor:pointer}.day.editable:hover,.day.editable:focus-visible{background:#e5f6ff;outline:2px solid #77c7ef;outline-offset:1px}.day.editable small:empty{display:none}
