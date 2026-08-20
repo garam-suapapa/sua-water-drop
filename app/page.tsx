@@ -1,6 +1,6 @@
 "use client";
 import {useEffect,useState} from "react";
-type Logs=Record<string,number>; const GOAL=1000,KEY="mori-water-v1",HEARTS=["🤍","❤","🧡","💛","💚","💙","💜","💕","💖","💝"];
+type Logs=Record<string,number>; const GOAL=1000,KEY="mori-water-v1",HEARTS=["🤍","❤️","🧡","💛","💚","💙","💜","💕","💖","💝"];
 const key=(d=new Date())=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 function demo(){const n=new Date(),v=[1000,850,1000,600,1000,950,1000,700,1000,400,900,1000,750,1000];return Object.fromEntries(v.map((x,i)=>[key(new Date(n.getFullYear(),n.getMonth(),Math.max(1,n.getDate()-i-1))),x]));}
 export default function Home(){
